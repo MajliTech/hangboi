@@ -8,4 +8,4 @@ cli.show_server_banner = lambda *x: None
 def giveAnswer():
     global word
     return word
-app.run("0.0.0.0",9200)
+app.run(port=9200)
